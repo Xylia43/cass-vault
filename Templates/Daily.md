@@ -20,15 +20,10 @@ dv.taskList(dv.pages().file.tasks
   .where(t => t.text.includes("{{date:YYYY-MM-DD}}")))
 ```
 #### 今日想要完成任务
-今天你想要完成 [[Tasks]] 中的na? 
-![[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>#Tomorrow, Pre arrange]]
-- [ ] 
+今天你想要完成 [[Tasks]] 中的哪项任务? 
+
 #### Log
 
 
 #### Review
 #### What I learned today ?
-
-#### Tomorrow, Pre arrange
-- [ ] 
-#### Reflection: [[2025-Year of Remembering]]
