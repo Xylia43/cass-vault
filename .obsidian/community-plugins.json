@@ -6,10 +6,10 @@
   "obsidian-tasks-plugin",
   "quickadd",
   "dataview",
-  "templater-obsidian",
   "obsidian-kanban",
   "table-editor-obsidian",
   "obsidian-git",
   "obsidian-enhancing-export",
-  "obsidian-custom-attachment-location"
+  "obsidian-custom-attachment-location",
+  "templater-obsidian"
 ]
