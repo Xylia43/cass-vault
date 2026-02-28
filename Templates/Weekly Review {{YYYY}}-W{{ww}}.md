@@ -3,19 +3,19 @@
 - [x] 清理垃圾，重启电脑
 - [ ] 制定下周计划
 - [ ] 学习回顾
-## Monthly initiatives
+## 月度计划
 
 Keep these things in mind as you do this week's review:
 
 ![[<% tp.date.now("YYYY-MM") %>#Month Review <% tp.date.now("YYYY-MM") %>]]
-## Last week
+## 上周
 ![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7)%>#<% tp.date.now("YYYY") %>-W<% tp.date.now("ww", -7), %> Goals]]
-> [!QUESTION] Questions to ask
-> Did you finish your goals from last week? What are you changing so that you can do them this month?
+> [!QUESTION] 灵魂拷问？
+> 你完成上周的目标了吗? 什么可以改变已达成自己的目标呢?
 
-## This week 
+## 本周
 ## <% tp.date.now("YYYY") %>-W<% tp.date.now("ww"), %> Goals
 
-> [!question] Three goals
-> If you could only get three specific goals done this week, what would they be? How do they relate to your monthly initiatives and yearly OKRs?
+> [!question] 三个目标
+> 如果你紧紧可以制定三个目标, 将会是哪三个? 它们如何与你的每月计划和年度OKR相关?
 - [ ] 
