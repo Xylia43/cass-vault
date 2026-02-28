@@ -1,5 +1,5 @@
 # Review: <% tp.date.now("YYYY-MM") %>
-## Habit Track
+## 每日习惯
 ```dataviewjs
 let pages = dv.pages(`"Reviews/Daily/2026"`)
 const year = 2025
@@ -7,13 +7,10 @@ const month = 2
 const date_pattern = 'YYYY-MM-DD'
 const habit_tag = '#habit'
 const habits = {
-	'vocabulary': '☑️ {habit} words',
-	'reading':'☑️ Hot Houser Flower',
-	'bbcSession':'☑️ BBc session',
-	'poopoo':'☑️ 💩',
-	'workout':'☑️ 🏃',
-	'wxread':'☑️ WX reading',
-	'168':'☑️ Intermittent Fasting'
+	'背单词': '☑️ {habit} words',
+	'吃早饭':'☑️ 吃早饭',
+	'运动':'☑️ 运动',
+	'睡午觉':'☑️ 睡午觉'
 }
 
 let data = {}
@@ -35,22 +32,15 @@ for (let date in data) {
 }
 renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_pattern}) 
 ```
-## Direction
-Keep these things in mind as you do this month's review:
-### [[My Core Principles]]
 
-### Yearly OKRs
+### 年终目标 OKRs
 ![[ <% tp.date.now("YYYY") %>#OKRs]]
-## Last month
+## 上月回顾
 ![[<% tp.date.now("YYYY-MM","P-1M") %>#Month Review <% tp.date.now("YYYY-MM","P-1M") %>]]
-> [!question] Questions to ask
-> Did you finish the initiatives? If so, how do you think you did? If not, what do you need to change to finish them this month?
+> [!question] 灵魂拷问
+> 你完成了这些计划了吗？如果有，你觉得自己表现如何？如果没有，这个月你需要做些什么才能完成？
 
-### Other reflections
-> [!question] Questions to ask
-> How do you feel about your accomplishments? What prevented you from working optimally?
-
-## Month Review <% tp.date.now("YYYY-MM") %>
-> [!question] Questions to ask
-> What initiatives are you setting this month?
+## 本月回顾 <% tp.date.now("YYYY-MM") %>
+> [!question] 灵魂拷问
+> 你这个月会制定哪些目标？
 - [ ] 
