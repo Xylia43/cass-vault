@@ -29,6 +29,8 @@
     "标签": "multitext",
     "截止日期": "datetime",
     "状态": "multitext",
-    "优先级": "multitext"
+    "优先级": "multitext",
+    "Parent": "text",
+    "Project": "multitext"
   }
 }
