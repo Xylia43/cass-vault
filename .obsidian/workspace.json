@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflows/项目管理.md",
+                "file": "TaskNotes/Tasks/特定场景1处理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目管理"
+              "title": "特定场景1处理"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Monthly.md",
+                "file": "Templates/Project Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monthly"
+              "title": "Project Template"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -244,10 +244,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Workflows/项目管理.md"
+                "file": "Templates/Okrs.md"
               },
               "icon": "lucide-info",
-              "title": "项目管理的笔记属性"
+              "title": "Okrs的笔记属性"
             }
           }
         ],
@@ -281,22 +281,24 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "16b53bb42e02e337",
+  "active": "8b77ba138f142a81",
   "lastOpenFiles": [
-    "Workflows/目标设置和回顾.md",
-    "Workflows/项目管理.md",
-    "TaskNotes/视频生成项目.md",
+    "TaskNotes/Tasks/特定场景1处理.md",
     "Templates/Task Template.md",
+    "TaskNotes/视频生成项目.md",
+    "TaskNotes/Tasks",
+    "Templates/Project Template.md",
+    "Templates/Monthly.md",
+    "Workflows/项目管理.md",
+    "Workflows/目标设置和回顾.md",
     "Templates/Story Template.md",
     "Templates/Epic Template.md",
-    "Templates/Project Template.md",
     "Projects/视频生成项目.md",
     "未命名.base",
     "未命名.canvas",
     "Workflows/快捷键.md",
     "Templates/未命名.md",
     "Reviews/Daily/2026-02-28.md",
-    "Templates/Monthly.md",
     "Templates/Okrs.md",
     "Reviews/Yearly/2026.md",
     "Reviews/Daily/2026-03-01.md",
@@ -311,14 +313,12 @@
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "Projects/RN",
     "2026-03-03.md",
     "Templates/Weekly.md",
     "Templates/Yearly.md",
     "2026-02.md",
     "Reviews/OKRs/Okr-2026 做10次内容分享1.md",
     "Templates/Daily.md",
-    "Reviews/OKRs/Okr-2026 \n.md",
-    "Reviews/OKRs/Okr-2026 成为开思研发部的中流砥柱.md"
+    "Reviews/OKRs/Okr-2026 \n.md"
   ]
 }
