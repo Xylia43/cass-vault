@@ -65,9 +65,7 @@ views:
       hideEmptyColumns: false
   - type: tasknotesKanban
     name: 视图
-    sort:
-      - property: file.name
-        direction: ASC
+    sort: []
   - type: table
     name: 视图 2
     sort:
