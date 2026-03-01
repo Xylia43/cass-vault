@@ -227,9 +227,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "a39fde446de4bc08",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -253,8 +263,9 @@
   },
   "active": "e41bbcf03b1fe9f4",
   "lastOpenFiles": [
-    "Templates/Daily.md",
+    "Tasks.md",
     "Reviews/Daily/2026-03-01.md",
+    "Templates/Daily.md",
     "Reviews/Daily/2026-02-28.md",
     "Reviews/Yearly/2026.md",
     "Templates/Yearly {{YYYY}}.md",
@@ -264,7 +275,6 @@
     "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
     "Templates/Okrs.md",
     "Templates/Monthly Review{{YYYY-MM}}.md",
-    "Tasks.md",
     "Test.md",
     "Reviews/Yearly",
     "Reviews/Monthly",

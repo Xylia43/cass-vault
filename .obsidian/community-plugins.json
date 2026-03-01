@@ -3,7 +3,6 @@
   "calendar",
   "habit-calendar",
   "nldates-obsidian",
-  "obsidian-tasks-plugin",
   "quickadd",
   "dataview",
   "obsidian-kanban",
@@ -11,5 +10,6 @@
   "obsidian-git",
   "obsidian-enhancing-export",
   "obsidian-custom-attachment-location",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-checklist-plugin"
 ]
