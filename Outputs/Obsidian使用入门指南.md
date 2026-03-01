@@ -365,7 +365,6 @@ MyNote/
 
 **模板代码示例**：
 ```markdown
---- 
 # <%tp.date.now("dddd, MMMM DD, YYYY",0, tp.file.title)%>
 < [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|昨日]]
 #### 习惯
@@ -386,7 +385,8 @@ MyNote/
 dv.taskList(dv.pages().file.tasks 
   .where(t => !t.completed)
   .where(t => t.text.includes("{{date:YYYY-MM-DD}}")))
-```
+  ```
+
 #### 今日想要完成任务
 
 #### 工作日志

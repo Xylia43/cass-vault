@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Templates/Weekly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily"
+              "title": "Weekly"
             }
           }
         ],
@@ -270,9 +270,10 @@
   },
   "active": "16b53bb42e02e337",
   "lastOpenFiles": [
+    "Templates/Weekly.md",
     "Templates/Daily.md",
-    "Reviews/Monthly/2026-03.md",
     "Outputs/Obsidian使用入门指南.md",
+    "Reviews/Monthly/2026-03.md",
     "Reviews/Daily/2026-03-02.md",
     "Outputs",
     "TaskNotes/Views/mini-calendar-default.base",
@@ -306,7 +307,6 @@
     "Reviews/Yearly/2026.md",
     "Reviews/OKRs/Okr-2026 做10次内容分享.md",
     "Reviews/Weekly/2026-W09.md",
-    "2026-03-03.md",
-    "Templates/Weekly.md"
+    "2026-03-03.md"
   ]
 }
