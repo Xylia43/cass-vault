@@ -1,5 +1,5 @@
 --- 
-# <%tp.date.now("dddd, MMMM D, YYYY",0, tp.file.title)%>
+# <%tp.date.now("dddd, MMMM DD, YYYY",0, tp.file.title)%>
 < [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|昨日]]
 #### 习惯
 - [ ] #habit 背单词 (vocabulary::10) 个
@@ -7,7 +7,7 @@
 - [ ] #habit 运动
 - [ ] #habit 睡午觉
 #### 方向
-我们要朝着这个方向努力💪
+指引我前进的 💪
  ![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7), %>#<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7), %> Goals]]
 
 > [!warning] 创建一个新的每周笔记
