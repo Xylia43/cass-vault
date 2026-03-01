@@ -11,6 +11,8 @@
   "sortDirectionSubGroups": "new->old",
   "includeFiles": "",
   "lookAndFeel": "classic",
-  "_collapsedSections": [],
+  "_collapsedSections": [
+    "Templates/Weekly.md"
+  ],
   "_hiddenTags": []
 }
