@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md",
+                "file": "Templates/Daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-03-01 的反向链接列表"
+              "title": "Daily 的反向链接列表"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md",
+                "file": "Templates/Daily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-03-01 的出链列表"
+              "title": "Daily 的出链列表"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md",
+                "file": "Templates/Daily.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-01 的大纲"
+              "title": "Daily 的大纲"
             }
           },
           {
@@ -237,11 +237,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f2640712ab156a59",
+  "active": "98410826b2c31f62",
   "lastOpenFiles": [
+    "Reviews/Daily/2026-03-01.md",
     "Templates/Daily.md",
     "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
-    "Reviews/Daily/2026-03-01.md",
     "Reviews/Daily/2026-02-28.md",
     "Templates/Okrs.md",
     "Templates/Yearly {{YYYY}}.md",
