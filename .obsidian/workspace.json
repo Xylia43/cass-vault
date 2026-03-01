@@ -71,7 +71,7 @@
               "state": {
                 "file": "Projects/RN/未命名看板.md",
                 "kanbanViewState": {
-                  "kanban-plugin": "board",
+                  "kanban-plugin": "list",
                   "list-collapse": [
                     false,
                     false,
