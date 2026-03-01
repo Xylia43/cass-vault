@@ -1,12 +1,4 @@
 {
-  "quickadd:runQuickAdd": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "A"
-    }
-  ],
   "quickadd:choice:092e6e9c-3967-42d7-ae98-5316025d36b7": [
     {
       "modifiers": [
@@ -50,6 +42,15 @@
         "Ctrl"
       ],
       "key": "Y"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "Q"
     }
   ]
 }

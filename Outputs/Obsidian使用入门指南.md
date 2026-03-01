@@ -286,7 +286,7 @@ SORT 优先级 DESC
 - 保持库结构整洁
 
 #### 13. **Enhance Exports**
-**作用**：将笔记导出为美观的 HTML 网页
+**作用**：将笔记导出可选多种文件格式
 
 **使用好处**：
 - 分享笔记给他人
@@ -301,7 +301,7 @@ SORT 优先级 DESC
 - 快速输入日期
 - 支持多种语言
 - 减少手动输入
-- 提高效率
+- 提高效率 
 
 ---
 
@@ -323,11 +323,11 @@ MyNote/
 │   ├── Projects/
 │   └── Goals/
 │
+├── 💼 Outputs/            # 输出
 ├── 🎯 Reviews/            # 复习和总结
 │   ├── Daily/
 │   └── Weekly/
 │   └── Monthly/
-│   └── Quarterly/
 │   └── Yearly/              # 日记和周期笔记
 │
 └── 📋 Templates/          # 笔记模板
@@ -336,7 +336,7 @@ MyNote/
     └── Monthly Template.md
     ├── Yearly Template.md
     ├── Yearly Objective Template.md
-    └── Task Template.md
+    └── Project Template.md
 ```
 
 ---
@@ -365,36 +365,37 @@ MyNote/
 
 **模板代码示例**：
 ```markdown
----
-# <%tp.date.now("dddd, MMMM D, YYYY",0, tp.file.title)%>
+--- 
+# <%tp.date.now("dddd, MMMM DD, YYYY",0, tp.file.title)%>
+< [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|昨日]]
+#### 习惯
+- [ ] #habit 背单词 (vocabulary::10) 个
+- [ ] #habit 吃早饭
+- [ ] #habit 运动
+- [ ] #habit 睡午觉
+#### 方向
+指引我前进的 💪
+ ![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7), %>#<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7), %> Goals]]
 
-#### 📋 今日习惯
-- [ ] #habit 运动(workout::30) 分钟
-- [ ] #habit 阅读(reading::1) 页
-- [ ] #habit 冥想(meditation::10) 分钟
+> [!warning] 创建一个新的每周笔记
+> 如果你想创建每周笔记，不要点击上面的链接。 打开命令面板（CTRL/CMD P），选择“Periodic Notes：打开每周笔记”，按照[[目标设置和复习]]中的说明。
 
-#### 🎯 今日方向
-这是你本周的目标：
-![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7) %>#Goals]]
+#### 今日到期任务
 
-#### ✅ 今日任务
-\`\`\`dataviewjs
-dv.taskList(dv.pages().file.tasks
+```dataviewjs
+dv.taskList(dv.pages().file.tasks 
   .where(t => !t.completed)
   .where(t => t.text.includes("{{date:YYYY-MM-DD}}")))
-\`\`\`
+```
+#### 今日想要完成任务
 
-#### 📝 今日记录
--
+#### 工作日志
 
-#### 📚 学到的东西
--
 
-#### 💭 反思
--
+#### 回顾
+> [!warning] 吾日三省吾身
+> 吃好了吗？ 睡好了吗？ 今天开心吗？
 
-#### 📌 明日计划
-- [ ]
 ```
 
 **模板说明**：
