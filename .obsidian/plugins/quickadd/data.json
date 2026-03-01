@@ -48,23 +48,25 @@
     },
     {
       "id": "2a452de0-adf5-4ef5-b3ca-5e9173c59868",
-      "name": "新建年度目标",
+      "name": "🎯 添加年度目标",
       "type": "Template",
       "command": false,
-      "templatePath": "",
+      "templatePath": "Templates/Okrs.md",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "Okr-{{DATE:YYYY}} {{value}}"
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "Reviews/OKRs"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
       },
       "appendLink": false,
-      "openFile": false,
+      "openFile": true,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",
