@@ -5,7 +5,7 @@
 > [!question] 灵魂拷问
 > 你去年的OKR完成的怎么样？你希望自己做得更好吗？
 
-![[ <% tp.date.now("YYYY",-365) %>#This year]]
+每年![[ <% tp.date.now("YYYY",-365) %>#OKRs
 ## OKRs
 今年写的OKR不超过5个，并为每个目标创建一个页面。
 
