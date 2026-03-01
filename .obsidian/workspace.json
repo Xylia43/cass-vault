@@ -25,13 +25,14 @@
             "id": "16b53bb42e02e337",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base",
-                "viewName": "All Tasks"
+                "file": "Reviews/Daily/2026-03-01.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "tasknotes-simple",
-              "title": "tasks-default"
+              "icon": "lucide-file",
+              "title": "2026-03-01"
             }
           }
         ],
@@ -215,10 +216,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TaskNotes/Views/tasks-default.base"
+                "file": "Reviews/Daily/2026-03-01.md"
               },
               "icon": "lucide-info",
-              "title": "tasks-default的笔记属性"
+              "title": "2026-03-01的笔记属性"
             }
           }
         ],
@@ -255,6 +256,8 @@
   },
   "active": "08b61e8e174005b7",
   "lastOpenFiles": [
+    "未命名 2.base",
+    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/mini-calendar-default.base",
@@ -262,10 +265,8 @@
     "TaskNotes/Views/kanban-default.base",
     "Templates/Project Template.md",
     "未命名.md",
-    "TaskNotes/Views/tasks-default.base",
     "TaskNotes/视频生成项目.md",
     "TaskNotes/Tasks/特定场景1处理.md",
-    "未命名 2.base",
     "Templates/Task Template.md",
     "Templates/Epic Template.md",
     "TaskNotes/Tasks/特定场景2处理 后天 2小时.md",
