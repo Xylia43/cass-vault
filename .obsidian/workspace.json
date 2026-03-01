@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/OKRs/Okr-2026 成为开思研发部的中流砥柱.md",
+                "file": "Reviews/Yearly/2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Okr-2026 成为开思研发部的中流砥柱"
+              "title": "2026"
             }
           },
           {
@@ -277,10 +277,11 @@
   },
   "active": "f0a5a625acd630ce",
   "lastOpenFiles": [
-    "Templates/Yearly.md",
-    "Reviews/OKRs/Okr-2026 成为开思研发部的中流砥柱.md",
-    "Reviews/OKRs",
+    "Reviews/OKRs/Okr-2026 \n.md",
     "Reviews/Yearly/2026.md",
+    "Reviews/OKRs/Okr-2026 成为开思研发部的中流砥柱.md",
+    "Templates/Yearly.md",
+    "Reviews/OKRs",
     "Workflows/目标设置和回顾.md",
     "Reviews/Weekly/2026-W09.md",
     "Reviews/Daily/2026-03-01.md",

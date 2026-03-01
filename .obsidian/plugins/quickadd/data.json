@@ -50,7 +50,7 @@
       "id": "2a452de0-adf5-4ef5-b3ca-5e9173c59868",
       "name": "🎯 添加年度目标",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "Templates/Okrs.md",
       "fileNameFormat": {
         "enabled": true,
