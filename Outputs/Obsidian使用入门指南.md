@@ -413,32 +413,26 @@ dv.taskList(dv.pages().file.tasks
 **模板代码示例**：
 ```markdown
 # Review: <% tp.date.now("YYYY-ww") %>
+## 周末检查
+- [x] 清理垃圾，重启电脑
+- [ ] 制定下周计划
+- [ ] 学习回顾
+## 月度计划
 
-## 📋 周检查清单
-- [x] 处理邮件到零收件箱
-- [ ] 清理下载文件夹
-- [ ] 清理桌面
-- [ ] 重启电脑
-- [ ] 整理办公桌
-- [ ] 整理房间
-- [ ] GTD 复习
-  - [ ] 处理待办箱中的任务
-  - [ ] 复查下一步行动
-  - [ ] 复查跟进项
-  - [ ] 复查待办项
+在本周的评测中，请牢记这些要点:
 
-## 🎯 本周目标回顾
-![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7)%>#Goals]]
+![[<% tp.date.now("YYYY-MM") %>#本月回顾 <% tp.date.now("YYYY-MM") %>]]
+## 上周
+![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7)%>#<% tp.date.now("YYYY") %>-W<% tp.date.now("ww", -7), %> Goals]]
+> [!QUESTION] 灵魂拷问？
+> 你完成上周的目标了吗? 什么可以改变已达成自己的目标呢?
 
-> [!question] 反思问题
-> 你完成了上周的目标吗？为了完成本月的目标，你需要做什么改变？
+## 本周
+## <% tp.date.now("YYYY") %>-W<% tp.date.now("ww"), %> Goals
 
-## 🎯 下周目标
-> [!question] 三个关键目标
-> 如果这周只能完成三个具体目标，会是什么？它们如何与你的月度目标和年度 OKR 相关？
-- [ ]
-- [ ]
-- [ ]
+> [!question] 三个目标
+> 如果你紧紧可以制定三个目标, 将会是哪三个? 它们如何与你的每月计划和年度OKR相关?
+- [ ] 
 ```
 
 ---
@@ -450,32 +444,54 @@ dv.taskList(dv.pages().file.tasks
 **模板代码示例**：
 ```markdown
 # Review: <% tp.date.now("YYYY-MM") %>
+## 每日习惯
+```dataviewjs
+let pages = dv.pages(`"Reviews/Daily"`)
+// 使用当前日期
+const now = new Date();
+const year = now.getFullYear();
+const month = now.getMonth() + 1; // JavaScript月份从0开始，所以+1
 
-## 📊 习惯追踪
-[自动生成的习惯完成率统计]
+const date_pattern = 'YYYY-MM-DD'
+const habit_tag = '#habit'
+const habits = {
+	'vocabulary': '☑️ 背{habit}个单词',
+	'breakfast':'☑️ 吃早饭',
+	'workout':'☑️ 运动',
+	'nap':'☑️ 睡午觉'
+}
 
-## 🎯 本月方向
-### [[My Core Principles]]（核心原则）
+let data = {}
+for (let page of pages) {
+	let date = page.file.name
+	data[date] = data[date] || ''
+	for (let task of page.file.tasks.filter(task => task.tags.contains(habit_tag) && task.checked)) {
+		for (let habit in habits) {
+			if (task[habit]) {
+				data[date] += habits[habit].replace('{habit}', task[habit]) + '\n'
+			}
+		}
+	} 
+}
 
-### 年度 OKRs
+let calendarData = []
+for (let date in data) {
+	calendarData.push({date: date, content: data[date]})
+}
+renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_pattern}) 
+
+
+### 年终目标 OKRs
 ![[ <% tp.date.now("YYYY") %>#OKRs]]
+## 上月回顾
+![[<% tp.date.now("YYYY-MM","P-1M") %>#本月回顾 <% tp.date.now("YYYY-MM","P-1M") %>]]
+> [!question] 灵魂拷问
+> 你完成了这些计划了吗？如果有，你觉得自己表现如何？如果没有，这个月你需要做些什么才能完成？
 
-## 📈 上月回顾
-![[<% tp.date.now("YYYY-MM","P-1M") %>#Month Review]]
-
-> [!question] 反思问题
-> 你完成了上月的目标吗？如果没有，需要做什么改变才能在本月完成？
-
-## 💭 其他反思
-> [!question] 反思问题
-> 你对自己的成就感到满意吗？什么阻碍了你的最优表现？
-
-## 📌 本月目标
-> [!question] 本月目标
-> 你本月的目标是什么？
-- [ ]
-- [ ]
-- [ ]
+## 本月回顾 <% tp.date.now("YYYY-MM") %>
+> [!question] 灵魂拷问
+> 你这个月会制定哪些目标？
+- [ ] 
 ```
 
 ---
@@ -486,115 +502,24 @@ dv.taskList(dv.pages().file.tasks
 
 **模板代码示例**：
 ```markdown
-# Review: <% tp.date.now("YYYY") %>
+# 计划: <% tp.date.now("YYYY") %>
 
-### [[My Core Principles]]（核心原则）
+## 去年
 
-## 📈 去年回顾
-> [!question] 反思问题
-> 去年的 OKRs 是什么？每个 OKR 的完成情况如何？你希望做得更好的地方是什么？
+> [!question] 灵魂拷问
+> 你去年的OKR完成的怎么样？你希望自己做得更好吗？
 
-![[ <% tp.date.now("YYYY",-365) %>#This year]]
-
-## 🎯 今年 OKRs
-写不超过 5 个 OKRs，并为每个创建一个页面。
-
-### 工作类
-- [ ] OKR 1:
-- [ ] OKR 2:
-
-### 健康类
-- [ ] OKR 3:
-- [ ] OKR 4:
-
-### 财富类
-- [ ] OKR 5:
+每年回顾 ![[ <% tp.date.now("YYYY",-365) %>#OKRs]]
+## OKRs
+> [!tips] 
+> 今年写的OKR不超过5个，并为每个目标创建一个页面。把光标放在你想让新 OKR 出现的那行，然后点击“CMD”。或使用配置好的快捷键Command+A。选择“添加年度OKR”。新页面将被创建。
+### OKR 1:  
+### OKR 2: 
+### OKR 3: 
+### OKR 4: 
+### OKR 5: 
 ```
 
----
-
-#### 5. **任务模板** - Task.md
-
-任务模板用于创建结构化的任务笔记。
-
-**模板代码示例**：
-```markdown
----
-Start Dates:
-End Dates:
-Status:
-Completion:
-↗Linked Goals:
-🔗URL:
-tags:
----
-
-# [[<% tp.file.title %>]]
-
-## 📋 任务描述
--
-
-## 🎯 目标
--
-
-## ✅ 完成标准
-- [ ]
-- [ ]
-
-## 📝 进度
--
-
-## 🔗 相关资源
--
-```
-
----
-
-#### 6. **会议记录模板** - Meeting.md
-
-会议记录模板用于记录会议内容和行动项。
-
-**模板代码示例**：
-```markdown
----
-date: <% tp.date.now("YYYY-MM-DD") %>
-type: meeting
-company:
-summary: ""
-tags:
-  - inbox
----
-
-# [[<% tp.file.title %>]]
-
-attendees:: ""
-
-## 📋 议程
-
-## 📝 会议记录
-
-> Topic:
-> Q:
-> A:
-
-> Topic:
-> Q:
-> A:
-
-## ✅ 行动项
-
-#todo/Follow-up
-- [ ]
-
-#todo/next-action
-- [ ]
-
-## 📌 决策记录
--
-
-## 💬 备注
--
-```
 
 ---
 
@@ -628,43 +553,7 @@ attendees:: ""
 
 ---
 
-
-
-### 1. **建立命名规范**
-- 文件名清晰简洁：`2026-02-27` 而不是 `日记`
-- 使用中文或英文保持一致
-- 避免特殊字符
-
-### 2. **合理使用标签**
-```markdown
-#学习 #编程 #Python #进行中
-```
-- 用于快速分类
-- 便于搜索和过滤
-- 不要过度标签化
-
-### 3. **充分利用链接**
-```markdown
-[[相关笔记]]
-[[项目 A|自定义显示文本]]
-```
-- 建立知识网络
-- 定期查看反向链接
-- 使用图谱视图发现关联
-
-### 4. **定期复习**
-- 每周进行周复习
-- 每月进行月复习
-- 使用 Dataview 查询需要复习的内容
-
-### 5. **保持一致性**
-- 使用统一的模板
-- 保持格式一致
-- 定期整理和优化
-
----
-
-## 第七部分：进阶技巧
+## 第六部分：进阶技巧
 
 ### 使用 Dataview 创建动态仪表板
 
@@ -708,7 +597,7 @@ SORT 优先级 DESC
 
 ---
 
-## 第八部分：常见问题
+## 第七部分：常见问题
 
 ### Q1：Obsidian 和其他笔记应用的区别？
 **A**：Obsidian 强调本地存储、隐私安全和知识网络。你的数据完全属于你，可以随时导出。
@@ -735,7 +624,7 @@ SORT 优先级 DESC
 
 ---
 
-## 第九部分：快速检查清单
+## 第八部分：快速检查清单
 
 启动你的 Obsidian 系统：
 
