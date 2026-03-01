@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Reviews/Daily/2026-03-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily"
+              "title": "2026-03-01"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Reviews/Daily/2026-03-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Daily 的反向链接列表"
+              "title": "2026-03-01 的反向链接列表"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Reviews/Daily/2026-03-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Daily 的出链列表"
+              "title": "2026-03-01 的出链列表"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Reviews/Daily/2026-03-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily 的大纲"
+              "title": "2026-03-01 的大纲"
             }
           },
           {
@@ -253,8 +253,8 @@
   },
   "active": "e41bbcf03b1fe9f4",
   "lastOpenFiles": [
-    "Reviews/Daily/2026-03-01.md",
     "Templates/Daily.md",
+    "Reviews/Daily/2026-03-01.md",
     "Reviews/Daily/2026-02-28.md",
     "Reviews/Yearly/2026.md",
     "Templates/Yearly {{YYYY}}.md",
