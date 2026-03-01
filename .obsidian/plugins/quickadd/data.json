@@ -16,7 +16,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "- {{DATE:HH:mm}}  {{VALUE}}"
+        "format": "- {{DATE:HH:mm}}  {{VALUE}}\n\n"
       },
       "insertAfter": {
         "enabled": true,
