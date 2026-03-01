@@ -3,7 +3,7 @@ views:
     name: 表格
     filters:
       and:
-        - file.hasLink("TaskNotes/{{file.name}}")
+        - file.hasLink("TaskNotes/视频生成项目")
     order:
       - file.name
       - status
