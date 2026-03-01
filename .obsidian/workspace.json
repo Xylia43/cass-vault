@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Workflows/目标设置和回顾.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Daily 的反向链接列表"
+              "title": "目标设置和回顾 的反向链接列表"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Workflows/目标设置和回顾.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Daily 的出链列表"
+              "title": "目标设置和回顾 的出链列表"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Workflows/目标设置和回顾.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily 的大纲"
+              "title": "目标设置和回顾 的大纲"
             }
           },
           {
@@ -251,10 +251,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d46930c11702274e",
+  "active": "98410826b2c31f62",
   "lastOpenFiles": [
-    "Reviews/Daily/2026-03-01.md",
     "Templates/Daily.md",
+    "Reviews/Daily/2026-03-01.md",
     "Workflows/目标设置和回顾.md",
     "Workflows",
     "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
