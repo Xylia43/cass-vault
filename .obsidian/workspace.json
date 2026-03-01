@@ -27,11 +27,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
-                "viewName": "视图 2"
+                "file": "TaskNotes/Views/tasks-default.base",
+                "viewName": "All Tasks"
               },
-              "icon": "lucide-table",
-              "title": "kanban-default"
+              "icon": "tasknotes-simple",
+              "title": "tasks-default"
             }
           }
         ],
@@ -215,10 +215,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TaskNotes/Views/kanban-default.base"
+                "file": "TaskNotes/Views/tasks-default.base"
               },
               "icon": "lucide-info",
-              "title": "kanban-default的笔记属性"
+              "title": "tasks-default的笔记属性"
             }
           }
         ],
@@ -253,11 +253,14 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "16b53bb42e02e337",
+  "active": "08b61e8e174005b7",
   "lastOpenFiles": [
-    "Templates/Project Template.md",
-    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/kanban-default.base",
+    "Templates/Project Template.md",
     "未命名.md",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/视频生成项目.md",
@@ -268,7 +271,6 @@
     "TaskNotes/Tasks/特定场景2处理 后天 2小时.md",
     "Projects/视频生成项目.md",
     "未命名 1.base",
-    "TaskNotes/Views/agenda-default.base",
     "Templates/Okrs.md",
     "TaskNotes/Tasks",
     "Templates/Monthly.md",
@@ -285,8 +287,6 @@
     "Reviews/Monthly/2026-03.md",
     "Reviews/OKRs/Okr-2026 做10次内容分享.md",
     "Reviews/Weekly/2026-W09.md",
-    "TaskNotes/Views/relationships.base",
-    "TaskNotes/Views/mini-calendar-default.base",
     "2026-03-03.md",
     "Templates/Weekly.md",
     "Templates/Yearly.md",
