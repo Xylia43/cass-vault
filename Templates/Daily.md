@@ -11,7 +11,7 @@
  ![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7), %>#<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7), %> Goals]]
 
 > [!warning] 创建一个新的每周笔记
-> ru g如果你想创建每周笔记，不要点击上面的链接。 打开命令面板（CTRL/CMD P），选择“Periodic Notes：打开每周笔记”，按照[[目标设置和复习]]中的说明。
+> 如果你想创建每周笔记，不要点击上面的链接。 打开命令面板（CTRL/CMD P），选择“Periodic Notes：打开每周笔记”，按照[[目标设置和复习]]中的说明。
 
 #### 今日到期任务
 
