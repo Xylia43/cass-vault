@@ -49,7 +49,7 @@
   ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
-  "useSelectionAsCaptureValue": true,
+  "useSelectionAsCaptureValue": false,
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": "major",
