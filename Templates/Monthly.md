@@ -1,9 +1,12 @@
 # Review: <% tp.date.now("YYYY-MM") %>
 ## 每日习惯
 ```dataviewjs
-let pages = dv.pages(`"Reviews/Daily/"`)
-const year = dv.
-const month = month
+let pages = dv.pages(`"Reviews/Daily"`)
+// 使用当前日期
+const now = new Date();
+const year = now.getFullYear();
+const month = now.getMonth() + 1; // JavaScript月份从0开始，所以+1
+
 const date_pattern = 'YYYY-MM-DD'
 const habit_tag = '#habit'
 const habits = {
