@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Task Template.md",
+                "file": "TaskNotes/视频生成项目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task Template"
+              "title": "视频生成项目"
             }
           },
           {
@@ -244,10 +244,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Templates/Task Template.md"
+                "file": "TaskNotes/视频生成项目.md"
               },
               "icon": "lucide-info",
-              "title": "Task Template的笔记属性"
+              "title": "视频生成项目的笔记属性"
             }
           }
         ],
@@ -283,8 +283,9 @@
   },
   "active": "16b53bb42e02e337",
   "lastOpenFiles": [
-    "Templates/Story Template.md",
     "Templates/Task Template.md",
+    "TaskNotes/视频生成项目.md",
+    "Templates/Story Template.md",
     "Templates/Epic Template.md",
     "Templates/Project Template.md",
     "Projects/视频生成项目.md",
@@ -318,7 +319,6 @@
     "Templates/Daily.md",
     "Reviews/OKRs/Okr-2026 \n.md",
     "Reviews/OKRs/Okr-2026 成为开思研发部的中流砥柱.md",
-    "Tasks.md",
-    "Test.md"
+    "Tasks.md"
   ]
 }

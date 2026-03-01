@@ -31,6 +31,7 @@
     "状态": "multitext",
     "优先级": "multitext",
     "Parent": "text",
-    "Project": "multitext"
+    "Project": "multitext",
+    "Epics": "text"
   }
 }
