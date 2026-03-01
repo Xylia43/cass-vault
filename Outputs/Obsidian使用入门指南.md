@@ -302,6 +302,55 @@ SORT 优先级 DESC
 - 支持多种语言
 - 减少手动输入
 - 提高效率 
+### 插件设置参考
+1. 核心插件配置： 
+反向链接： 点击开启
+模板：模版文件夹位置 /Templates
+
+2. 第三方插件配置： 
+关闭安全模式
+浏览社区插件市场
+安装所有推荐的插件
+
+3. Periodic Notes & Templater: 
+新建Templates 目录， 创建不同的模板
+
+设置 - 第三方插件 - Periodic Notes - 配置模板和文件创建添加的目录
+要可以显示js页面， 在Dataview- Enable Javascript queries and inline queries
+
+点开右边侧栏，日历- 点击今天就可以创建今天的 日记
+ 
+4. QuickAdd: 
+	1. 添加笔记到当日
+		1. 在Choices & Captures 下面， 输入名字， 选 Capture/ - Add choice
+		2. 点击刚刚添加的capture 的设置， Location -> Reviews/Daily/{{DATE:YYYY-MM-DD}}.md; Create file if doesn't exit  为true ； 选择对应的template； Insert After 设置为Log； Insert at end of the section 为true； Capture format 加个前缀  记录时间 - - {{DATE:HH:mm}}  {{VALUE}}，这里记得加个换行。 
+	2. 快速添加年度目标
+		1. 创建 添加年度目标 template 
+		2. 设置： Template Path： Templates/Okrs.md
+		Filename format 设置为true；模板： Okr-{{DATE:YYYY}}:{{value}}
+		create in folder: Reviews/OKRs
+		Linking: enabled. 
+		File opening location: split pane
+	3. 设置 - 快捷键 - 搜索 quick 设置快捷键 
+	command + A （Run QuickAd)
+	command + Option + A (直接Capture to daily note)
+
+5. Templater: 
+	1. Template folder location: /Templates
+	2. Trigger templater on new file creation set to True
+	3. set folder templates  
+这样新建的日志会显化模板的设置； 
+
+6. TaskNotes: 
+	1. 安装插件
+	2. 新建 Project 的模板
+
+7. Custom Attachment Location: 
+	1. 默认图像大小 ： 500px
+	2. 在Advanced 里设置 markdown url 格式： ./assets/${noteFileName}/${generatedAttachmentFileName}
+	3. 文件与链接 - 使用wiki链接 设置为false
+8. Enhance export 
+	1. 需要下载pandoc 支持 https://github.com/jgm/pandoc/releases
 
 ---
 
