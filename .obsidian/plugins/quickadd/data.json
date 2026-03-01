@@ -4,7 +4,7 @@
       "id": "092e6e9c-3967-42d7-ae98-5316025d36b7",
       "name": "Capture to daily note",
       "type": "Capture",
-      "command": false,
+      "command": true,
       "appendLink": false,
       "captureTo": "Reviews/Daily/{{DATE:YYYY-MM-DD}}.md",
       "captureToActiveFile": false,
@@ -16,11 +16,11 @@
       },
       "format": {
         "enabled": true,
-        "format": "- {{DATE:HH:mm}}"
+        "format": "- {{DATE:HH:mm}}  {{VALUE}}"
       },
       "insertAfter": {
         "enabled": true,
-        "after": "Log",
+        "after": "工作日志",
         "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
