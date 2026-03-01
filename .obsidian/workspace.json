@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "feb1d44dfab14534",
+            "id": "1f2210f661614891",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -251,11 +251,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "feb1d44dfab14534",
+  "active": "1f2210f661614891",
   "lastOpenFiles": [
-    "Templates/Daily.md",
-    "Reviews/Daily/2026-03-01.md",
     "Workflows/目标设置和回顾.md",
+    "Reviews/Daily/2026-03-01.md",
+    "Templates/Daily.md",
     "Workflows",
     "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
     "Reviews/Daily/2026-02-28.md",
