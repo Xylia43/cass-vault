@@ -1,6 +1,6 @@
 ---
 类型:
-  - Project
+  - Epic
 状态:
   - To-do
 优先级:

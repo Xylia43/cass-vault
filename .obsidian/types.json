@@ -25,6 +25,10 @@
     "TQ_show_toolbar": "checkbox",
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
-    "类型": "multitext"
+    "类型": "multitext",
+    "标签": "multitext",
+    "截止日期": "datetime",
+    "状态": "multitext",
+    "优先级": "multitext"
   }
 }
