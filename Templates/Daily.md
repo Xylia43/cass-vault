@@ -21,7 +21,6 @@ dv.taskList(dv.pages().file.tasks
   .where(t => t.text.includes("{{date:YYYY-MM-DD}}")))
 ```
 #### 今日想要完成任务
-今天你想要完成 [[Tasks]] 中的哪项任务? 
 
 #### 工作日志
 

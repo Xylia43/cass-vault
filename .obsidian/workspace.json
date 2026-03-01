@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/Daily/2026-02-28.md",
+                "file": "Reviews/Weekly/2026-W09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-28"
+              "title": "2026-W09"
             }
           },
           {
@@ -263,14 +263,15 @@
   },
   "active": "e41bbcf03b1fe9f4",
   "lastOpenFiles": [
-    "Tasks.md",
+    "Reviews/Weekly/2026-W09.md",
+    "Workflows/快捷键.md",
+    "Reviews/Daily/2026-02-28.md",
+    "Workflows/目标设置和回顾.md",
     "Reviews/Daily/2026-03-01.md",
     "Templates/Daily.md",
-    "Reviews/Daily/2026-02-28.md",
+    "Tasks.md",
     "Reviews/Yearly/2026.md",
     "Templates/Yearly {{YYYY}}.md",
-    "Workflows/目标设置和回顾.md",
-    "Workflows/快捷键.md",
     "Workflows",
     "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
     "Templates/Okrs.md",
