@@ -52,7 +52,6 @@ views:
       - priority
       - due
       - scheduled
-      - projects
       - contexts
       - file.tags
       - blockedBy
@@ -60,8 +59,17 @@ views:
       - recurrence
       - complete_instances
       - file.tasks
+      - projects
     options:
       columnWidth: 280
       hideEmptyColumns: false
-  - type: table
+  - type: tasknotesKanban
     name: 视图
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: 视图 2
+    sort:
+      - property: file.name
+        direction: ASC
