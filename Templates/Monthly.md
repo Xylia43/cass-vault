@@ -1,9 +1,9 @@
 # Review: <% tp.date.now("YYYY-MM") %>
 ## 每日习惯
 ```dataviewjs
-let pages = dv.pages(`"Reviews/Daily/2026"`)
-const year = 2025
-const month = 2
+let pages = dv.pages(`"Reviews/Daily/"`)
+const year = dv.
+const month = month
 const date_pattern = 'YYYY-MM-DD'
 const habit_tag = '#habit'
 const habits = {
