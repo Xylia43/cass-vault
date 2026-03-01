@@ -5,9 +5,9 @@
 - [ ] 学习回顾
 ## 月度计划
 
-Keep these things in mind as you do this week's review:
+在本周的评测中，请牢记这些要点:
 
-![[<% tp.date.now("YYYY-MM") %>#Month Review <% tp.date.now("YYYY-MM") %>]]
+![[<% tp.date.now("YYYY-MM") %>#本月回顾 <% tp.date.now("YYYY-MM") %>]]
 ## 上周
 ![[<% tp.date.now("YYYY") %>-W<% tp.date.now("ww",-7)%>#<% tp.date.now("YYYY") %>-W<% tp.date.now("ww", -7), %> Goals]]
 > [!QUESTION] 灵魂拷问？
