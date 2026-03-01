@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/Daily/2026-02-28.md",
+                "file": "Templates/Daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-28"
+              "title": "Daily"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reviews/Daily/2026-02-28.md",
+                "file": "Templates/Daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-02-28 的反向链接列表"
+              "title": "Daily 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reviews/Daily/2026-02-28.md",
+                "file": "Templates/Daily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2026-02-28 的出链列表"
+              "title": "Daily 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reviews/Daily/2026-02-28.md",
+                "file": "Templates/Daily.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-02-28 的大纲"
+              "title": "Daily 的大纲"
             }
           },
           {
@@ -225,12 +225,13 @@
   },
   "active": "98410826b2c31f62",
   "lastOpenFiles": [
-    "Templates/Daily.md",
+    "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
+    "Reviews/Daily/2026-03-01.md",
     "Reviews/Daily/2026-02-28.md",
+    "Templates/Daily.md",
     "Templates/Okrs.md",
     "Templates/Yearly {{YYYY}}.md",
     "Templates/Monthly Review{{YYYY-MM}}.md",
-    "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
     "Tasks.md",
     "Test.md",
     "Reviews/Yearly",
