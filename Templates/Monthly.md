@@ -10,10 +10,10 @@ const month = now.getMonth() + 1; // JavaScript月份从0开始，所以+1
 const date_pattern = 'YYYY-MM-DD'
 const habit_tag = '#habit'
 const habits = {
-	'背单词': '☑️ {habit} words',
-	'吃早饭':'☑️ 吃早饭',
-	'运动':'☑️ 运动',
-	'睡午觉':'☑️ 睡午觉'
+	'vocabulary': '☑️ {habit} words',
+	'breakfast':'☑️ 吃早饭',
+	'workout':'☑️ 运动',
+	'nap':'☑️ 睡午觉'
 }
 
 let data = {}
