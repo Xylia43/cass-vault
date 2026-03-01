@@ -1,6 +1,6 @@
 --- 
 # <%tp.date.now("dddd, MMMM D, YYYY",0, tp.file.title)%>
-< [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|Yesterday]]
+< [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|昨日]]
 #### 习惯
 - [ ] #habit 背单词 (vocabulary::10) 个
 - [ ] #habit 吃早饭

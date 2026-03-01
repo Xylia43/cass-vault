@@ -7,7 +7,7 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
@@ -15,8 +15,20 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Reviews/Daily",
+      "template": "Templates/Daily.md"
+    },
+    {
+      "folder": "Reviews/Weekly",
+      "template": "Templates/Weekly Review {{YYYY}}-W{{ww}}.md"
+    },
+    {
+      "folder": "Reviews/Monthly",
+      "template": "Templates/Monthly Review{{YYYY-MM}}.md"
+    },
+    {
+      "folder": "Reviews/Yearly",
+      "template": "Templates/Yearly {{YYYY}}.md"
     }
   ],
   "enable_file_templates": false,
