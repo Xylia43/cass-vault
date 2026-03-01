@@ -6,22 +6,22 @@
       "type": "Capture",
       "command": false,
       "appendLink": false,
-      "captureTo": "",
+      "captureTo": "Reviews/Daily/{{DATE:YYYY-MM-DD}}.md",
       "captureToActiveFile": false,
       "activeFileWritePosition": "cursor",
       "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "Templates/Daily.md"
       },
       "format": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "- {{DATE:HH:mm}}"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
+        "enabled": true,
+        "after": "Log",
+        "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top",
@@ -35,7 +35,7 @@
       },
       "prepend": false,
       "task": false,
-      "openFile": false,
+      "openFile": true,
       "fileOpening": {
         "location": "tab",
         "direction": "vertical",
