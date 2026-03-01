@@ -65,10 +65,15 @@
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
       },
-      "appendLink": false,
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": true,
+        "linkType": "link"
+      },
       "openFile": true,
       "fileOpening": {
-        "location": "tab",
+        "location": "split",
         "direction": "vertical",
         "mode": "default",
         "focus": true
