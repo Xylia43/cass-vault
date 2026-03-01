@@ -258,11 +258,27 @@
       "obsidian-kanban:创建新看板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "tasknotes:Open mini calendar": false,
+      "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
+      "tasknotes:Open pomodoro stats": false,
+      "tasknotes:Create new task": false
     }
   },
   "active": "8b77ba138f142a81",
   "lastOpenFiles": [
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views",
+    "TaskNotes",
     "Reviews/Monthly/2026-03.md",
     "Projects/RN/未命名看板.md",
     "Reviews/Weekly/2026-W09.md",
@@ -286,13 +302,6 @@
     "Reviews/OKRs/Okr-2026 成为开思研发部的中流砥柱.md",
     "Reviews/OKRs",
     "Tasks.md",
-    "Workflows",
-    "Test.md",
-    "Reviews/Yearly",
-    "Reviews/Monthly",
-    "Reviews/Weekly",
-    "Reviews/Daily",
-    "Templates",
-    "Reviews"
+    "Test.md"
   ]
 }
