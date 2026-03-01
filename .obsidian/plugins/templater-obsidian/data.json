@@ -20,15 +20,15 @@
     },
     {
       "folder": "Reviews/Weekly",
-      "template": "Templates/Weekly Review {{YYYY}}-W{{ww}}.md"
+      "template": "Templates/Weekly.md"
     },
     {
       "folder": "Reviews/Monthly",
-      "template": "Templates/Monthly Review{{YYYY-MM}}.md"
+      "template": "Templates/Monthly.md"
     },
     {
       "folder": "Reviews/Yearly",
-      "template": "Templates/Yearly {{YYYY}}.md"
+      "template": "Templates/Yearly.md"
     }
   ],
   "enable_file_templates": false,

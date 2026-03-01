@@ -36,7 +36,7 @@ renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_p
 ### 年终目标 OKRs
 ![[ <% tp.date.now("YYYY") %>#OKRs]]
 ## 上月回顾
-![[<% tp.date.now("YYYY-MM","P-1M") %>#Month Review <% tp.date.now("YYYY-MM","P-1M") %>]]
+![[<% tp.date.now("YYYY-MM","P-1M") %>#本月回顾 <% tp.date.now("YYYY-MM","P-1M") %>]]
 > [!question] 灵魂拷问
 > 你完成了这些计划了吗？如果有，你觉得自己表现如何？如果没有，这个月你需要做些什么才能完成？
 
