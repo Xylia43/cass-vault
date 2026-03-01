@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/Daily/2026-03-02.md",
+                "file": "Outputs/Obsidian使用入门指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-02"
+              "title": "Obsidian使用入门指南"
             }
           }
         ],
@@ -216,10 +216,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Reviews/Daily/2026-03-02.md"
+                "file": "Outputs/Obsidian使用入门指南.md"
               },
               "icon": "lucide-info",
-              "title": "2026-03-02的笔记属性"
+              "title": "Obsidian使用入门指南的笔记属性"
             }
           }
         ],
@@ -254,11 +254,12 @@
       "tasknotes:Create new task": false
     }
   },
-  "active": "08b61e8e174005b7",
+  "active": "16b53bb42e02e337",
   "lastOpenFiles": [
+    "Reviews/Daily/2026-03-02.md",
+    "Outputs/Obsidian使用入门指南.md",
     "Outputs",
     "TaskNotes/Views/mini-calendar-default.base",
-    "Reviews/Daily/2026-03-02.md",
     "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/agenda-default.base",
@@ -277,7 +278,6 @@
     "Templates/Epic Template.md",
     "TaskNotes/Tasks/特定场景2处理 后天 2小时.md",
     "Projects/视频生成项目.md",
-    "未命名 1.base",
     "Templates/Okrs.md",
     "Templates/Monthly.md",
     "Workflows/项目管理.md",
