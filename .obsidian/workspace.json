@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md",
+                "file": "Reviews/Daily/2026-03-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-01"
+              "title": "2026-03-02"
             }
           }
         ],
@@ -216,10 +216,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md"
+                "file": "Reviews/Daily/2026-03-02.md"
               },
               "icon": "lucide-info",
-              "title": "2026-03-01的笔记属性"
+              "title": "2026-03-02的笔记属性"
             }
           }
         ],
@@ -256,11 +256,17 @@
   },
   "active": "08b61e8e174005b7",
   "lastOpenFiles": [
-    "未命名 2.base",
+    "Outputs",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "Reviews/Daily/2026-03-02.md",
+    "TaskNotes/Views/calendar-default.base",
     "TaskNotes/Views/tasks-default.base",
     "TaskNotes/Views/agenda-default.base",
-    "TaskNotes/Views/calendar-default.base",
-    "TaskNotes/Views/mini-calendar-default.base",
+    "Reviews/Daily/2026-03-01.md",
+    "Reviews/Daily/assets/2026-03-01/file-20260302005033877.png",
+    "Reviews/Daily/assets/2026-03-01",
+    "Reviews/Daily/assets",
+    "未命名 2.base",
     "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/kanban-default.base",
     "Templates/Project Template.md",
@@ -273,24 +279,20 @@
     "Projects/视频生成项目.md",
     "未命名 1.base",
     "Templates/Okrs.md",
-    "TaskNotes/Tasks",
     "Templates/Monthly.md",
     "Workflows/项目管理.md",
     "Workflows/目标设置和回顾.md",
     "Templates/Story Template.md",
-    "未命名.base",
     "未命名.canvas",
     "Workflows/快捷键.md",
     "Templates/未命名.md",
     "Reviews/Daily/2026-02-28.md",
     "Reviews/Yearly/2026.md",
-    "Reviews/Daily/2026-03-01.md",
     "Reviews/Monthly/2026-03.md",
     "Reviews/OKRs/Okr-2026 做10次内容分享.md",
     "Reviews/Weekly/2026-W09.md",
     "2026-03-03.md",
     "Templates/Weekly.md",
-    "Templates/Yearly.md",
-    "2026-02.md"
+    "Templates/Yearly.md"
   ]
 }

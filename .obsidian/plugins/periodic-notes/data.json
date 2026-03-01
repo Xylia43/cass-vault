@@ -10,13 +10,13 @@
   },
   "weekly": {
     "format": "",
-    "template": "Templates/Weekly Review {{YYYY}}-W{{ww}}.md",
+    "template": "Templates/Weekly.md",
     "folder": "Reviews/Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "",
-    "template": "Templates/Monthly Review{{YYYY-MM}}.md",
+    "template": "Templates/Monthly.md",
     "folder": "Reviews/Monthly",
     "enabled": true
   },
@@ -27,7 +27,7 @@
   },
   "yearly": {
     "format": "",
-    "template": "Templates/Yearly {{YYYY}}.md",
+    "template": "Templates/Yearly.md",
     "folder": "Reviews/Yearly",
     "enabled": true
   }
