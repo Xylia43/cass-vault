@@ -52,5 +52,23 @@
       ],
       "key": "Q"
     }
+  ],
+  "nldates-obsidian:nlp-time": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "nldates-obsidian:nlp-now": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
   ]
 }
