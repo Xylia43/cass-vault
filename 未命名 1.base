@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.hasLink("TaskNotes/{{file.name}}")
+    order:
+      - file.name
+      - status
+      - timeEstimate
+    sort: []
+  - type: cards
+    name: 视图
+    filters:
+      and:
+        - file.hasLink("TaskNotes/视频生成项目")
