@@ -312,9 +312,7 @@ SORT 优先级 DESC
 浏览社区插件市场
 安装所有推荐的插件
 
-3. Periodic Notes & Templater: 
-新建Templates 目录， 创建不同的模板
-
+3. Periodic Notes : 
 设置 - 第三方插件 - Periodic Notes - 配置模板和文件创建添加的目录
 要可以显示js页面， 在Dataview- Enable Javascript queries and inline queries
 
