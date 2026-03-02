@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md",
+                "file": "Reviews/Monthly/2026-03.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-01"
+              "title": "2026-03"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reviews/Daily/2026-03-01.md",
+                "file": "Reviews/Monthly/2026-03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026-03-01 的大纲"
+              "title": "2026-03 的大纲"
             }
           },
           {
@@ -308,6 +308,8 @@
   },
   "active": "a618defa93573dc9",
   "lastOpenFiles": [
+    "Reviews/Daily/2026-03-01.md",
+    "Outputs/Obsidian使用入门指南.md",
     "Reviews/Daily/2026-03-02.md",
     "TaskNotes/视频生成项目.md",
     "未命名 2.base",
@@ -317,8 +319,6 @@
     "Workflows/项目管理.md",
     "TaskNotes/Views/kanban-default.base",
     "Reviews/Monthly/2026-03.md",
-    "Outputs/Obsidian使用入门指南.md",
-    "Reviews/Daily/2026-03-01.md",
     "Workflows/目标设置和回顾.md",
     "Reviews/Daily/assets/2026-03-02/file-20260302020258882.png",
     "Reviews/Daily/assets/2026-03-02",
