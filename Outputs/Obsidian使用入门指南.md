@@ -250,18 +250,12 @@ SORT 优先级 DESC
 - 减少重复输入
 - 保持笔记格式一致
 
-**模板例子**：
+**模板配置**：
 ```
-# 日记 - <% tp.date.now("YYYY-MM-DD") %>
-
-## 今日总结
--
-
-## 明日计划
--
-
-## 学到的东西
--
+ Setting - Templater: 
+	1. Template folder location: /Templates
+	2. Trigger templater on new file creation set to True
+这样新建的日志会显化模板的设置； 
 ```
 
 #### 10. **Table Editor**（表格编辑器）
@@ -324,15 +318,10 @@ SORT 优先级 DESC
 安装所有推荐的插件
 
 3. Periodic Notes : 
-设置 - 第三方插件 - Periodic Notes - 配置模板和文件创建添加的目录
+
 要可以显示js页面， 在Dataview- Enable Javascript queries and inline queries
 
-点开右边侧栏，日历- 点击今天就可以创建今天的 日记
-5. Templater: 
-	1. Template folder location: /Templates
-	2. Trigger templater on new file creation set to True
-	3. set folder templates  
-这样新建的日志会显化模板的设置； 
+
  
 6. QuickAdd: 
 	1. 添加笔记到当日
