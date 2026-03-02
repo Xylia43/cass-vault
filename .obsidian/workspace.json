@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workflows/快捷键.md",
+                "file": "Outputs/Obsidian使用入门指南.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "快捷键"
+              "title": "Obsidian使用入门指南"
             }
           }
         ],
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflows/快捷键.md",
+                "file": "Outputs/Obsidian使用入门指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "快捷键 的大纲"
+              "title": "Obsidian使用入门指南 的大纲"
             }
           },
           {
@@ -253,11 +253,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 492.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,6 +323,7 @@
   },
   "active": "16b53bb42e02e337",
   "lastOpenFiles": [
+    "Workflows/快捷键.md",
     "Workflows/目标设置和回顾.md",
     "Workflows/项目管理.md",
     "未命名 2.base",
@@ -338,7 +340,6 @@
     "Reviews/Daily/2026-03-01.md",
     "TaskNotes/视频生成项目.md",
     "2026-03-02.md",
-    "Workflows/快捷键.md",
     "TaskNotes/Views/kanban-default.base",
     "Reviews/Daily/assets/2026-03-02/file-20260302020258882.png",
     "Reviews/Daily/assets/2026-03-02",
