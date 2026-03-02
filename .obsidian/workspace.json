@@ -15,7 +15,17 @@
               "state": {
                 "file": "Reviews/Yearly/2026.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "2026"
@@ -82,9 +92,21 @@
               "icon": "lucide-file",
               "title": "Project Template"
             }
+          },
+          {
+            "id": "463c4ff868b0c4bd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -219,13 +241,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outputs/Obsidian使用入门指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian使用入门指南 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -297,10 +318,8 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:创建新看板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false,
       "tasknotes:Open mini calendar": false,
       "tasknotes:Open advanced calendar": false,
       "tasknotes:Open task list": false,
@@ -309,10 +328,10 @@
       "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": false,
       "tasknotes:Create new task": false,
-      "publish:发布更改": false
+      "periodic-notes:Open today": false
     }
   },
-  "active": "0c47de3dc8f3851f",
+  "active": "463c4ff868b0c4bd",
   "lastOpenFiles": [
     "TaskNotes/视频生成项目.md",
     "Workflows/快捷键.md",
