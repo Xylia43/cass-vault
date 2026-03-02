@@ -432,6 +432,14 @@ Setting - Dataview -
 - 按笔记类型分类存储
 - 便于管理和查找
 - 保持库结构整洁
+**推荐配置** 
+```
+Setting - Custom Attachment Location 
+Images: 
+	1. 默认图像大小 ： 500px
+	2. 在Advanced 里设置 markdown url 格式： ./assets/${noteFileName}/${generatedAttachmentFileName}
+Setting - 文件与链接 - 使用wiki链接 设置为false
+```
 
 #### 13. **Enhance Exports**
 **作用**：将笔记导出可选多种文件格式
@@ -441,6 +449,12 @@ Setting - Dataview -
 - 创建个人博客
 - 备份为网页格式
 - 跨平台查看
+**推荐配置**
+```
+1. 需要下载pandoc支持 https://github.com/jgm/pandoc/releases
+   mac 电脑下载安装后即可， Windows电脑则需要
+
+```
 
 #### 15. **NLDates**（自然语言日期）
 **作用**：用自然语言输入日期（如"明天"、"下周一"）
@@ -453,21 +467,6 @@ Setting - Dataview -
 ### ‼️插件设置参考
 1. 核心插件配置： 
 反向链接： 点击开启
-
-
-
-
-
-3. TaskNotes: 
-	1. 安装插件
-	2. 新建 Project 的模板
-
-4. Custom Attachment Location: 
-	1. 默认图像大小 ： 500px
-	2. 在Advanced 里设置 markdown url 格式： ./assets/${noteFileName}/${generatedAttachmentFileName}
-	3. 文件与链接 - 使用wiki链接 设置为false
-5. Enhance export 
-	1. 需要下载pandoc 支持 https://github.com/jgm/pandoc/releases
 
 ---
 
