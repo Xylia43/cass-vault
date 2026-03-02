@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TaskNotes/视频生成项目.md",
+                "file": "Reviews/Daily/2026-03-01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "视频生成项目"
+              "title": "2026-03-01"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TaskNotes/视频生成项目.md",
+                "file": "Reviews/Daily/2026-03-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "视频生成项目 的大纲"
+              "title": "2026-03-01 的大纲"
             }
           },
           {
@@ -308,14 +308,14 @@
   },
   "active": "a618defa93573dc9",
   "lastOpenFiles": [
+    "Reviews/Daily/2026-03-02.md",
+    "TaskNotes/视频生成项目.md",
     "未命名 2.base",
     "Templates/Project Template.md",
     "2026-03-02.md",
-    "TaskNotes/视频生成项目.md",
     "Workflows/快捷键.md",
     "Workflows/项目管理.md",
     "TaskNotes/Views/kanban-default.base",
-    "Reviews/Daily/2026-03-02.md",
     "Reviews/Monthly/2026-03.md",
     "Outputs/Obsidian使用入门指南.md",
     "Reviews/Daily/2026-03-01.md",
