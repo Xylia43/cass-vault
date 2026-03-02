@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Workflows/快捷键.md",
+                    "file": "Templates/Daily.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -33,7 +33,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "快捷键"
+                  "title": "Daily"
                 }
               }
             ]
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflows/快捷键.md",
+                "file": "Templates/Daily.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "快捷键 的大纲"
+              "title": "Daily 的大纲"
             }
           },
           {
@@ -236,10 +236,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Workflows/快捷键.md"
+                "file": "Templates/Daily.md"
               },
               "icon": "lucide-info",
-              "title": "快捷键的笔记属性"
+              "title": "Daily的笔记属性"
             }
           },
           {
@@ -286,6 +286,7 @@
   },
   "active": "ef4d4dc8b43119d1",
   "lastOpenFiles": [
+    "Workflows/快捷键.md",
     "Workflows/项目管理.md",
     "Outputs/Obsidian使用入门指南.md",
     "Reviews/Yearly/2026.md",
@@ -296,7 +297,6 @@
     "Reviews/Daily/2026-03-02.md",
     "Reviews/Daily/2026-03-01.md",
     "TaskNotes/Views/agenda-default.base",
-    "Workflows/快捷键.md",
     "TaskNotes/Tasks/今天下午5点，回顾今日笔记。 30分钟.md",
     "Templates/views/mydata.base",
     "Templates/views",
