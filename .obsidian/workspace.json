@@ -30,70 +30,8 @@
               "icon": "lucide-file",
               "title": "2026"
             }
-          },
-          {
-            "id": "16b53bb42e02e337",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Workflows/项目管理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "项目管理"
-            }
-          },
-          {
-            "id": "8ab2febe3b5375e9",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
-                "viewName": "Kanban Board"
-              },
-              "icon": "tasknotes-simple",
-              "title": "kanban-default"
-            }
-          },
-          {
-            "id": "d2983e03e42ad922",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Workflows/快捷键.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "快捷键"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TaskNotes/Views/kanban-default.base",
+                "file": "Reviews/Yearly/2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "kanban-default 的大纲"
+              "title": "2026 的大纲"
             }
           },
           {
@@ -273,10 +211,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Outputs/Obsidian使用入门指南.md"
+                "file": "Reviews/Yearly/2026.md"
               },
               "icon": "lucide-info",
-              "title": "Obsidian使用入门指南的笔记属性"
+              "title": "2026的笔记属性"
             }
           },
           {
@@ -290,7 +228,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -357,12 +295,17 @@
       }
     ]
   },
-  "active": "8ab2febe3b5375e9",
+  "active": "ef4d4dc8b43119d1",
   "lastOpenFiles": [
-    "TaskNotes/视频生成项目.md",
     "Workflows/项目管理.md",
-    "TaskNotes/Tasks/今天下午5点，回顾今日笔记。 30分钟.md",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/视频生成项目.md",
+    "Reviews/Monthly/2026-03.md",
+    "Reviews/Daily/2026-03-02.md",
+    "Reviews/Daily/2026-03-01.md",
+    "TaskNotes/Views/agenda-default.base",
     "Workflows/快捷键.md",
+    "TaskNotes/Tasks/今天下午5点，回顾今日笔记。 30分钟.md",
     "Templates/views/mydata.base",
     "Templates/views",
     "Templates/Project Template.md",
@@ -375,12 +318,7 @@
     "Reviews/Weekly/2026-W10.md",
     "TaskNotes/Views/calendar-default.base",
     "Templates.zip",
-    "TaskNotes/Views/agenda-default.base",
-    "Reviews/Daily/2026-03-02.md",
-    "Reviews/Monthly/2026-03.md",
-    "Reviews/Daily/2026-03-01.md",
     "2026-03-02.md",
-    "TaskNotes/Views/kanban-default.base",
     "Reviews/Daily/assets/2026-03-02/file-20260302020258882.png",
     "Reviews/Daily/assets/2026-03-02",
     "Reviews/Weekly/2026-W09.md",
@@ -396,7 +334,6 @@
     "TaskNotes/Tasks/特定场景2处理 后天 2小时.md",
     "Projects/视频生成项目.md",
     "Templates/Okrs.md",
-    "Templates/Story Template.md",
     "未命名.canvas"
   ]
 }

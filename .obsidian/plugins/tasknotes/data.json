@@ -7,7 +7,7 @@
   "hideIdentifyingTagsInCards": false,
   "taskPropertyName": "",
   "taskPropertyValue": "",
-  "excludedFolders": "",
+  "excludedFolders": "Templates, Archive",
   "defaultTaskPriority": "normal",
   "defaultTaskStatus": "open",
   "taskOrgFiltersCollapsed": false,
