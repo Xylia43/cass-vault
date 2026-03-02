@@ -464,7 +464,7 @@ Setting - 文件与链接 - 使用wiki链接 设置为false
 
 ```
 
-#### 15. **NLDates**（自然语言日期）
+#### 14. **NLDates**（自然语言日期）
 **作用**：用自然语言输入日期（如"明天"、"下周一"）
 
 **使用好处**：
@@ -472,8 +472,56 @@ Setting - 文件与链接 - 使用wiki链接 设置为false
 - 支持多种语言
 - 减少手动输入
 - 提高效率 
-### 🔗 AI 
+### 🤖✨ ==AI 工具类== ✨
+#### 15. **Agent Client**
+**作用**：Bring AI agents (Claude Code, Codex, Gemini CLI) directly into Obsidian. Chat with your AI assistant right from your vault.
+**安装**
+Via BRAT (Recommended)
 
+[](https://github.com/RAIT-09/obsidian-agent-client?tab=readme-ov-file#via-brat-recommended)
+
+1. Install the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
+2. Go to **Settings → BRAT → Add Beta Plugin**
+3. Paste: `https://github.com/RAIT-09/obsidian-agent-client`
+4. Enable **Agent Client** from the plugin list
+
+**推荐配置**
+
+[](https://github.com/RAIT-09/obsidian-agent-client?tab=readme-ov-file#quick-start)
+
+Open a terminal (Terminal on macOS/Linux, PowerShell on Windows) and run the following commands.
+
+1. **Install an agent and its ACP adapter** (e.g., Claude Code):
+    
+    ```shell
+    curl -fsSL https://claude.ai/install.sh | bash   # Install Claude Code
+    npm install -g @zed-industries/claude-agent-acp   # Install ACP adapter
+    ```
+    
+2. **Login** (skip if using API key):
+    
+    ```shell
+    claude
+    ```
+    
+    Follow the prompts to authenticate with your Anthropic account.
+    
+3. **Find the paths**:
+    
+    ```shell
+    which node   # macOS/Linux
+    which claude-agent-acp
+    
+    where.exe node   # Windows
+    where.exe claude-agent-acp
+    ```
+    
+4. **Configure** in **Settings → Agent Client**:
+    
+    - **Node.js path**: e.g., `/usr/local/bin/node`
+    - **Built-in agents → Claude Code → Path**: e.g., `/usr/local/bin/claude-agent-acp` (not `claude`)
+    - **API key**: Add your key, or leave empty if logged in via CLI
+5. **Start chatting**: Click the robot icon in the ribbon
 ## 第四部分（续）：快捷键配置
 ![快捷键](快捷键.md)
 
