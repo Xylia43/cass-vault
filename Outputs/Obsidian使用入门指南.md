@@ -207,23 +207,142 @@ Note Folder: Reviews/Yearly
 - 提高记录效率
 
 **推荐配置:**
+1. 直接使用以下脚本 Import package
+```json
+{
+  "schemaVersion": 1,
+  "quickAddVersion": "2.11.0",
+  "createdAt": "2026-03-02T06:26:54.962Z",
+  "rootChoiceIds": [
+    "092e6e9c-3967-42d7-ae98-5316025d36b7",
+    "2a452de0-adf5-4ef5-b3ca-5e9173c59868"
+  ],
+  "choices": [
+    {
+      "choice": {
+        "id": "092e6e9c-3967-42d7-ae98-5316025d36b7",
+        "name": "Capture to daily note",
+        "type": "Capture",
+        "command": true,
+        "appendLink": false,
+        "captureTo": "Reviews/Daily/{{DATE:YYYY-MM-DD}}.md",
+        "captureToActiveFile": false,
+        "activeFileWritePosition": "cursor",
+        "createFileIfItDoesntExist": {
+          "enabled": true,
+          "createWithTemplate": true,
+          "template": "Templates/Daily.md"
+        },
+        "format": {
+          "enabled": true,
+          "format": "- {{DATE:HH:mm}}  {{VALUE}}\n"
+        },
+        "insertAfter": {
+          "enabled": true,
+          "after": "工作日志",
+          "insertAtEnd": true,
+          "considerSubsections": false,
+          "createIfNotFound": false,
+          "createIfNotFoundLocation": "top",
+          "inline": false,
+          "replaceExisting": false,
+          "blankLineAfterMatchMode": "auto"
+        },
+        "newLineCapture": {
+          "enabled": false,
+          "direction": "below"
+        },
+        "prepend": false,
+        "task": false,
+        "openFile": true,
+        "fileOpening": {
+          "location": "tab",
+          "direction": "vertical",
+          "mode": "default",
+          "focus": true
+        },
+        "templater": {
+          "afterCapture": "none"
+        }
+      },
+      "pathHint": [
+        "Capture to daily note"
+      ],
+      "parentChoiceId": null
+    },
+    {
+      "choice": {
+        "id": "2a452de0-adf5-4ef5-b3ca-5e9173c59868",
+        "name": "🎯 添加年度目标",
+        "type": "Template",
+        "command": true,
+        "templatePath": "Templates/Okrs.md",
+        "fileNameFormat": {
+          "enabled": true,
+          "format": "Okr-{{DATE:YYYY}} {{value}}"
+        },
+        "folder": {
+          "enabled": true,
+          "folders": [
+            "Reviews/OKRs"
+          ],
+          "chooseWhenCreatingNote": false,
+          "createInSameFolderAsActiveFile": false,
+          "chooseFromSubfolders": false
+        },
+        "appendLink": {
+          "enabled": true,
+          "placement": "replaceSelection",
+          "requireActiveFile": true,
+          "linkType": "link"
+        },
+        "openFile": true,
+        "fileOpening": {
+          "location": "split",
+          "direction": "vertical",
+          "mode": "default",
+          "focus": true
+        },
+        "fileExistsMode": "Nothing",
+        "setFileExistsBehavior": true
+      },
+      "pathHint": [
+        "🎯 添加年度目标"
+      ],
+      "parentChoiceId": null
+    }
+  ],
+  "assets": [
+    {
+      "kind": "template",
+      "originalPath": "Templates/Okrs.md",
+      "contentEncoding": "base64",
+      "content": "IyDnm67moIc6IDwlIHRwLmZpbGUudGl0bGUgJT4KCiMjIOWFs+mUrue7k+aenAotIAoKCiMjIOebuOWFs+mhueebrgotIAoKCiMjIOebuOWFs+S4vuaOqgotIAoK"
+    },
+    {
+      "kind": "capture-template",
+      "originalPath": "Templates/Daily.md",
+      "contentEncoding": "base64",
+      "content": "LS0tIAojIDwldHAuZGF0ZS5ub3coImRkZGQsIE1NTU0gREQsIFlZWVkiLDAsIHRwLmZpbGUudGl0bGUpJT4KPCBbWzwlIHRwLmRhdGUubm93KCJZWVlZLU1NLUREIiwgLTEsIHRwLmZpbGUudGl0bGUsICJZWVlZLU1NLUREIikgJT585pio5pelXV0KIyMjIyDkuaDmg68KLSBbIF0gI2hhYml0IOiDjOWNleivjSAodm9jYWJ1bGFyeTo6MTApIOS4qgotIFsgXSAjaGFiaXQg5ZCD5pep6aWtCi0gWyBdICNoYWJpdCDov5DliqgKLSBbIF0gI2hhYml0IOedoeWNiOiniQojIyMjIOaWueWQkQrmjIflvJXmiJHliY3ov5vnmoQg8J+SqgogIVtbPCUgdHAuZGF0ZS5ub3coIllZWVkiKSAlPi1XPCUgdHAuZGF0ZS5ub3coInd3IiwtNyksICU+IzwlIHRwLmRhdGUubm93KCJZWVlZIikgJT4tVzwlIHRwLmRhdGUubm93KCJ3dyIsLTcpLCAlPiBHb2Fsc11dCgo+IFshd2FybmluZ10g5Yib5bu65LiA5Liq5paw55qE5q+P5ZGo56yU6K6wCj4g5aaC5p6c5L2g5oOz5Yib5bu65q+P5ZGo56yU6K6w77yM5LiN6KaB54K55Ye75LiK6Z2i55qE6ZO+5o6l44CCIOaJk+W8gOWRveS7pOmdouadv++8iENUUkwvQ01EIFDvvInvvIzpgInmi6nigJxQZXJpb2RpYyBOb3Rlc++8muaJk+W8gOavj+WRqOeslOiusOKAne+8jOaMieeFp1tb55uu5qCH6K6+572u5ZKM5aSN5LmgXV3kuK3nmoTor7TmmI7jgIIKCiMjIyMg5LuK5pel5Yiw5pyf5Lu75YqhCgpgYGBkYXRhdmlld2pzCmR2LnRhc2tMaXN0KGR2LnBhZ2VzKCkuZmlsZS50YXNrcyAKICAud2hlcmUodCA9PiAhdC5jb21wbGV0ZWQpCiAgLndoZXJlKHQgPT4gdC50ZXh0LmluY2x1ZGVzKCJ7e2RhdGU6WVlZWS1NTS1ERH19IikpKQpgYGAKIyMjIyDku4rml6Xmg7PopoHlrozmiJDku7vliqEKCiMjIyMg5bel5L2c5pel5b+XCgoKIyMjIyDlm57pob4KPiBbIXdhcm5pbmddIOWQvuaXpeS4ieecgeWQvui6qwo+IOWQg+WlveS6huWQl++8nyDnnaHlpb3kuoblkJfvvJ8g5LuK5aSp5byA5b+D5ZCX77yfCg=="
+    }
+  ]
+}
 ```
-2. QuickAdd: 
-	1. 添加笔记到当日
+2. 手动配置： 
+	 1. QuickAdd: 
+	2. 添加笔记到当日
 		1. 在Choices & Captures 下面， 输入名字， 选 Capture/ - Add choice
 		2. 点击刚刚添加的capture 的设置， Location -> Reviews/Daily/{{DATE:YYYY-MM-DD}}.md; Create file if doesn't exit  为true ； 选择对应的template； Insert After 设置为Log； Insert at end of the section 为true； Capture format 加个前缀  记录时间 - - {{DATE:HH:mm}}  {{VALUE}}，这里记得加个换行。 
-	2. 快速添加年度目标
+	3. 快速添加年度目标
 		1. 创建 添加年度目标 template 
 		2. 设置： Template Path： Templates/Okrs.md
 		Filename format 设置为true；模板： Okr-{{DATE:YYYY}}:{{value}}
 		create in folder: Reviews/OKRs
 		Linking: enabled. 
 		File opening location: split pane
-	3. 设置 - 快捷键 - 搜索 quick 设置快捷键 
-	command + A （Run QuickAd)
+	4. 设置 - 快捷键 - 搜索 quick 设置快捷键 
+	command + shift + A （Run QuickAd)
 	command + Option + A (直接Capture to daily note)
-```
-
 ---
 
 ### 📊 数据可视化类插件
