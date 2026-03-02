@@ -452,7 +452,7 @@ Setting - 文件与链接 - 使用wiki链接 设置为false
 **推荐配置**
 ```
 1. 需要下载pandoc支持 https://github.com/jgm/pandoc/releases
-   mac 电脑下载安装后即可， Windows电脑则需要
+   mac 电脑下载安装后即可， Windows电脑则需要配置Pandoc 路径
 
 ```
 
@@ -464,9 +464,8 @@ Setting - 文件与链接 - 使用wiki链接 设置为false
 - 支持多种语言
 - 减少手动输入
 - 提高效率 
-### ‼️插件设置参考
-1. 核心插件配置： 
-反向链接： 点击开启
+## 第四部分（续）：快捷键配置
+![快捷键](快捷键.md)
 
 ---
 

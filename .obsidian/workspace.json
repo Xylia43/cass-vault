@@ -54,6 +54,30 @@
               "icon": "lucide-file",
               "title": "Obsidian使用入门指南"
             }
+          },
+          {
+            "id": "040a2f3af3446c0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflows/快捷键.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "快捷键"
+            }
           }
         ],
         "currentTab": 1
@@ -323,6 +347,7 @@
   "active": "16b53bb42e02e337",
   "lastOpenFiles": [
     "Workflows/快捷键.md",
+    "Outputs/Obsidian使用入门指南.md",
     "Workflows/目标设置和回顾.md",
     "Workflows/项目管理.md",
     "未命名 2.base",
@@ -330,7 +355,6 @@
     "Templates/Project Template.md",
     "Templates/Monthly.md",
     "Reviews/Weekly/2026-W10.md",
-    "Outputs/Obsidian使用入门指南.md",
     "TaskNotes/Views/calendar-default.base",
     "Templates.zip",
     "TaskNotes/Views/agenda-default.base",
