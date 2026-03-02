@@ -63,7 +63,9 @@
       "updatedAt": "2026-03-02T08:50:18.373Z"
     }
   ],
-  "lastUsedModels": {},
+  "lastUsedModels": {
+    "claude-code-acp": "sonnet[1m]"
+  },
   "lastUsedModes": {},
   "showFloatingButton": false,
   "floatingButtonImage": "",
