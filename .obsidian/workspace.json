@@ -4,34 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "1a711beafe93c926",
-        "type": "tabs",
+        "id": "8ed2a9e2e7fa3e3c",
+        "type": "split",
         "children": [
           {
-            "id": "ef4d4dc8b43119d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reviews/Yearly/2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+            "id": "1a711beafe93c926",
+            "type": "tabs",
+            "dimension": 63.48122866894198,
+            "children": [
+              {
+                "id": "ef4d4dc8b43119d1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Outputs/Obsidian使用入门指南.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian使用入门指南"
                 }
-              },
-              "icon": "lucide-file",
-              "title": "2026"
-            }
+              }
+            ]
+          },
+          {
+            "id": "cc70934085ca899a",
+            "type": "tabs",
+            "dimension": 36.51877133105802,
+            "children": [
+              {
+                "id": "f5d4bc264c70a576",
+                "type": "leaf",
+                "state": {
+                  "type": "agent-client-chat-view",
+                  "state": {},
+                  "icon": "bot-message-square",
+                  "title": "Agent client"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -166,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reviews/Yearly/2026.md",
+                "file": "Outputs/Obsidian使用入门指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026 的大纲"
+              "title": "Obsidian使用入门指南 的大纲"
             }
           },
           {
@@ -211,10 +236,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Reviews/Yearly/2026.md"
+                "file": "Outputs/Obsidian使用入门指南.md"
               },
               "icon": "lucide-info",
-              "title": "2026的笔记属性"
+              "title": "Obsidian使用入门指南的笔记属性"
             }
           },
           {
@@ -228,14 +253,15 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 492.5
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "agent-client:Open agent client": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -254,13 +280,14 @@
       "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": false,
       "tasknotes:Create new task": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ef4d4dc8b43119d1",
+  "active": "0c47de3dc8f3851f",
   "lastOpenFiles": [
-    "TaskNotes/Views/calendar-default.base",
     "Reviews/Yearly/2026.md",
+    "TaskNotes/Views/calendar-default.base",
     "Workflows/项目管理.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/视频生成项目.md",
