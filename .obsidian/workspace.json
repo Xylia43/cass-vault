@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Templates/Daily.md",
+                    "file": "Templates/Monthly.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -33,7 +33,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Daily"
+                  "title": "Monthly"
                 }
               }
             ]
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily.md",
+                "file": "Templates/Monthly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Daily 的大纲"
+              "title": "Monthly 的大纲"
             }
           },
           {
@@ -236,10 +236,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Templates/Daily.md"
+                "file": "Templates/Monthly.md"
               },
               "icon": "lucide-info",
-              "title": "Daily的笔记属性"
+              "title": "Monthly的笔记属性"
             }
           },
           {
@@ -286,6 +286,7 @@
   },
   "active": "ef4d4dc8b43119d1",
   "lastOpenFiles": [
+    "Templates/Daily.md",
     "Workflows/快捷键.md",
     "Workflows/项目管理.md",
     "Outputs/Obsidian使用入门指南.md",
@@ -312,7 +313,6 @@
     "Reviews/Daily/assets/2026-03-02",
     "Reviews/Weekly/2026-W09.md",
     "Templates/Weekly.md",
-    "Templates/Daily.md",
     "Outputs",
     "TaskNotes/Views/mini-calendar-default.base",
     "Reviews/Daily/assets/2026-03-01/file-20260302005033877.png",
