@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reviews/Yearly/2026.md",
+                "file": "Workflows/项目管理.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026"
+              "title": "项目管理"
             }
           },
           {
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reviews/Yearly/2026.md",
+                "file": "Workflows/项目管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026 的大纲"
+              "title": "项目管理 的大纲"
             }
           },
           {
@@ -371,8 +371,8 @@
   "active": "16b53bb42e02e337",
   "lastOpenFiles": [
     "Workflows/目标设置和回顾.md",
-    "Workflows/快捷键.md",
     "Reviews/Yearly/2026.md",
+    "Workflows/快捷键.md",
     "Workflows/项目管理.md",
     "Outputs/Obsidian使用入门指南.md",
     "Templates/Project Template.md",
