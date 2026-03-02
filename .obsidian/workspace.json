@@ -83,28 +83,17 @@
             "id": "0d31bca7d29dc2e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Templates/Project Template.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Templates/mydata.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "Project Template"
+              "icon": "lucide-table",
+              "title": "mydata"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -239,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Workflows/项目管理.md",
+                "file": "Templates/mydata.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目管理 的大纲"
+              "title": "mydata 的大纲"
             }
           },
           {
@@ -368,16 +357,17 @@
       }
     ]
   },
-  "active": "16b53bb42e02e337",
+  "active": "08b61e8e174005b7",
   "lastOpenFiles": [
+    "Templates/Project Template.md",
+    "未命名.base",
+    "Workflows/项目管理.md",
     "Workflows/目标设置和回顾.md",
     "Reviews/Yearly/2026.md",
     "Workflows/快捷键.md",
-    "Workflows/项目管理.md",
     "Outputs/Obsidian使用入门指南.md",
-    "Templates/Project Template.md",
     "TaskNotes/视频生成项目.md",
-    "未命名 2.base",
+    "Templates/mydata.base",
     "Templates/Yearly.md",
     "Templates/Monthly.md",
     "Reviews/Weekly/2026-W10.md",
@@ -398,7 +388,6 @@
     "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views/tasks-default.base",
     "Reviews/Daily/assets/2026-03-01/file-20260302005033877.png",
-    "Reviews/Daily/assets/2026-03-01",
     "未命名.md",
     "TaskNotes/Tasks/特定场景1处理.md",
     "Templates/Task Template.md",
@@ -407,7 +396,6 @@
     "Projects/视频生成项目.md",
     "Templates/Okrs.md",
     "Templates/Story Template.md",
-    "未命名.canvas",
-    "Templates/未命名.md"
+    "未命名.canvas"
   ]
 }
