@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Outputs/Obsidian使用入门指南.md",
+                    "file": "Workflows/快捷键.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -33,7 +33,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Obsidian使用入门指南"
+                  "title": "快捷键"
                 }
               }
             ]
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outputs/Obsidian使用入门指南.md",
+                "file": "Workflows/快捷键.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian使用入门指南 的大纲"
+              "title": "快捷键 的大纲"
             }
           },
           {
@@ -236,10 +236,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Outputs/Obsidian使用入门指南.md"
+                "file": "Workflows/快捷键.md"
               },
               "icon": "lucide-info",
-              "title": "Obsidian使用入门指南的笔记属性"
+              "title": "快捷键的笔记属性"
             }
           },
           {
@@ -284,11 +284,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "f5d4bc264c70a576",
+  "active": "ef4d4dc8b43119d1",
   "lastOpenFiles": [
+    "Workflows/项目管理.md",
+    "Outputs/Obsidian使用入门指南.md",
     "Reviews/Yearly/2026.md",
     "TaskNotes/Views/calendar-default.base",
-    "Workflows/项目管理.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/视频生成项目.md",
     "Reviews/Monthly/2026-03.md",
@@ -302,7 +303,6 @@
     "Templates/Project Template.md",
     "未命名.base",
     "Workflows/目标设置和回顾.md",
-    "Outputs/Obsidian使用入门指南.md",
     "Templates/Yearly.md",
     "Templates/Monthly.md",
     "Reviews/Weekly/2026-W10.md",
