@@ -424,6 +424,11 @@ Setting - Dataview -
 - 多设备同步
 - 防止数据丢失
 
+**推荐配置** 
+```
+Auto commit-and-sync interval(minutes)
+Auto commit-and-sync after stopping file edits set to true
+```
 #### 12. **Custom Attachment Location**（自定义附件位置）
 **作用**：自定义图片、文件的存储位置
 

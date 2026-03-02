@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Project Template.md",
+                "file": "Outputs/Obsidian使用入门指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Project Template 的大纲"
+              "title": "Obsidian使用入门指南 的大纲"
             }
           },
           {
@@ -368,16 +368,16 @@
       }
     ]
   },
-  "active": "0d31bca7d29dc2e1",
+  "active": "16b53bb42e02e337",
   "lastOpenFiles": [
+    "Workflows/快捷键.md",
+    "Templates/Project Template.md",
     "TaskNotes/视频生成项目.md",
     "未命名 2.base",
     "Outputs/Obsidian使用入门指南.md",
-    "Workflows/快捷键.md",
     "Workflows/目标设置和回顾.md",
     "Workflows/项目管理.md",
     "Templates/Yearly.md",
-    "Templates/Project Template.md",
     "Templates/Monthly.md",
     "Reviews/Weekly/2026-W10.md",
     "TaskNotes/Views/calendar-default.base",
