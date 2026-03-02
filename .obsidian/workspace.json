@@ -63,27 +63,24 @@
               "state": {
                 "file": "TaskNotes/视频生成项目.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "视频生成项目"
             }
-          },
-          {
-            "id": "5ee87e232bfbf918",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "未命名 2.base",
-                "viewName": "表格"
-              },
-              "icon": "lucide-table",
-              "title": "未命名 2"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 2.base",
+                "file": "TaskNotes/视频生成项目.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 2 的大纲"
+              "title": "视频生成项目 的大纲"
             }
           },
           {
@@ -309,10 +306,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5ee87e232bfbf918",
+  "active": "a618defa93573dc9",
   "lastOpenFiles": [
-    "Templates/Project Template.md",
     "未命名 2.base",
+    "Templates/Project Template.md",
     "2026-03-02.md",
     "TaskNotes/视频生成项目.md",
     "Workflows/快捷键.md",
