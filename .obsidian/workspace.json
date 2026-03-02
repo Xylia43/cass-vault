@@ -10,7 +10,7 @@
           {
             "id": "1a711beafe93c926",
             "type": "tabs",
-            "dimension": 63.48122866894198,
+            "dimension": 49.861111111111114,
             "children": [
               {
                 "id": "ef4d4dc8b43119d1",
@@ -41,7 +41,7 @@
           {
             "id": "cc70934085ca899a",
             "type": "tabs",
-            "dimension": 36.51877133105802,
+            "dimension": 50.138888888888886,
             "children": [
               {
                 "id": "f5d4bc264c70a576",
@@ -284,7 +284,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "0c47de3dc8f3851f",
+  "active": "f5d4bc264c70a576",
   "lastOpenFiles": [
     "Reviews/Yearly/2026.md",
     "TaskNotes/Views/calendar-default.base",
