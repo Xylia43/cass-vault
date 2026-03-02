@@ -257,46 +257,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "floating": {
-    "id": "01c492375ac21402",
-    "type": "floating",
-    "children": [
-      {
-        "id": "746fb6430692a88f",
-        "type": "window",
-        "children": [
-          {
-            "id": "9f6e90a095816f88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a618defa93573dc9",
-                "type": "leaf",
-                "state": {
-                  "type": "bases",
-                  "state": {
-                    "file": "TaskNotes/Views/calendar-default.base",
-                    "viewName": "Calendar"
-                  },
-                  "icon": "tasknotes-simple",
-                  "title": "calendar-default"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 179,
-        "y": 25,
-        "width": 1083,
-        "height": 790,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "ef4d4dc8b43119d1",
   "lastOpenFiles": [
+    "TaskNotes/Views/calendar-default.base",
+    "Reviews/Yearly/2026.md",
     "Workflows/项目管理.md",
     "TaskNotes/Views/kanban-default.base",
     "TaskNotes/视频生成项目.md",
@@ -311,12 +275,10 @@
     "Templates/Project Template.md",
     "未命名.base",
     "Workflows/目标设置和回顾.md",
-    "Reviews/Yearly/2026.md",
     "Outputs/Obsidian使用入门指南.md",
     "Templates/Yearly.md",
     "Templates/Monthly.md",
     "Reviews/Weekly/2026-W10.md",
-    "TaskNotes/Views/calendar-default.base",
     "Templates.zip",
     "2026-03-02.md",
     "Reviews/Daily/assets/2026-03-02/file-20260302020258882.png",
