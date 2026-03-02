@@ -253,7 +253,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -314,19 +314,19 @@
         "x": 179,
         "y": 25,
         "width": 1083,
-        "height": 875,
+        "height": 801,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "16b53bb42e02e337",
+  "active": "f6a3fe975f17d715",
   "lastOpenFiles": [
-    "Templates.zip",
     "TaskNotes/Views/calendar-default.base",
+    "Outputs/Obsidian使用入门指南.md",
+    "Templates.zip",
     "TaskNotes/Views/agenda-default.base",
     "Reviews/Daily/2026-03-02.md",
-    "Outputs/Obsidian使用入门指南.md",
     "Reviews/Monthly/2026-03.md",
     "Reviews/Daily/2026-03-01.md",
     "TaskNotes/视频生成项目.md",
@@ -349,7 +349,6 @@
     "TaskNotes/Views/tasks-default.base",
     "Reviews/Daily/assets/2026-03-01/file-20260302005033877.png",
     "Reviews/Daily/assets/2026-03-01",
-    "Reviews/Daily/assets",
     "未命名.md",
     "TaskNotes/Tasks/特定场景1处理.md",
     "Templates/Task Template.md",
