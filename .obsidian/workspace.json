@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "快捷键"
             }
+          },
+          {
+            "id": "0d31bca7d29dc2e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Project Template.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Project Template"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -215,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Outputs/Obsidian使用入门指南.md",
+                "file": "Templates/Project Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian使用入门指南 的大纲"
+              "title": "Project Template 的大纲"
             }
           },
           {
@@ -344,13 +368,14 @@
       }
     ]
   },
-  "active": "16b53bb42e02e337",
+  "active": "0d31bca7d29dc2e1",
   "lastOpenFiles": [
-    "Workflows/快捷键.md",
+    "TaskNotes/视频生成项目.md",
+    "未命名 2.base",
     "Outputs/Obsidian使用入门指南.md",
+    "Workflows/快捷键.md",
     "Workflows/目标设置和回顾.md",
     "Workflows/项目管理.md",
-    "未命名 2.base",
     "Templates/Yearly.md",
     "Templates/Project Template.md",
     "Templates/Monthly.md",
@@ -361,7 +386,6 @@
     "Reviews/Daily/2026-03-02.md",
     "Reviews/Monthly/2026-03.md",
     "Reviews/Daily/2026-03-01.md",
-    "TaskNotes/视频生成项目.md",
     "2026-03-02.md",
     "TaskNotes/Views/kanban-default.base",
     "Reviews/Daily/assets/2026-03-02/file-20260302020258882.png",
