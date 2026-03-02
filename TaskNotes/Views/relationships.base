@@ -43,7 +43,6 @@ views:
     name: Subtasks
     filters:
       and:
-        - file.hasTag("task")
         - note.projects.contains(this.file.asLink())
     groupBy:
       property: status
